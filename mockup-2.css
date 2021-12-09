@@ -1,0 +1,139 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+}
+.medsos{
+  padding: 5px 0;
+  background-color: #000099;
+}
+.medsos ul li{
+  display: inline-block;
+  color: #ffffff;
+  margin-right: 10px;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.container:after{
+  content:'';
+  display: block;
+  clear: both;
+}
+header h1{
+  float: left;
+  padding: 15px 0;
+  color: #000099;
+}
+header ul{
+  float: right;
+}
+header ul li{
+  display: inline-block;
+}
+header ul li a{
+  padding: 21px 15px;
+  display: inline-block;
+}
+header ul li a:hover{
+  background-color: #3333ff;
+  color: #ffffff;
+}
+.active{
+  background-color: #000099;
+  color: #ffffff;
+}
+.banner{
+  height: 60vh;
+  background-image: url('https://www.pixelldesign.com/wp-content/uploads/background-makanan-gambar-talenan-kosong-napkin_03.jpg');
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner:after{
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(145, 152, 207, .6);
+}
+.banner h2{
+  color: #ffffff;
+  z-index: 1;
+  padding: 20px 25px;
+  border: 3px solid #ffffff;
+}
+section{
+  padding: 50px 0;
+}
+section h3{
+text-align: center;
+padding: 20px 0;
+color: #000099;
+margin-bottom: 20px;
+}
+.about,
+.menu {
+  padding-bottom: 100px;
+}
+.about p{
+color: #990000;
+word-spacing: 3px;
+line-height: 25px;
+margin-bottom: 20px;
+text-align: center;
+}
+.menu h3 ul li{
+color: #000099;
+text-align: center;
+}
+.box{
+  color: #000099;
+}
+.box:after{
+  content:"";
+  display:block;
+  clear: both;
+}
+.h4 .col-4{
+  width: 25%;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  display: inline-block;
+}
+.h4 .col-4{
+  margin: 20px 0;
+}
+footer{
+  padding: 30px 0;
+  background-color: #000080;
+  color: #ffffff;
+  text-align: center;
+}
+.label{
+  background-color:#000099;
+  color: #ffffff;
+}
+@media screen and {max-widht: 768px}{
+  /*For mobile phones*/
+.banner{
+  font-size: 30px;
+}
+}
+@media screen and {max-widht: 1000px}{
+/*For mobile tablets*/
+.banner{
+  font-size: 30px;
+}
+}
